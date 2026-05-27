@@ -9,5 +9,5 @@ Notér dem her i filen, og tilknyt en beskrivelse af hver rolle.
 • Holder Product Backlog synlig
 • Afklarer brugerbehov
 
-# SCRUM master:
-# Developers:
+# SCRUM master: Tor
+# Developers: Emil, Albina
