@@ -1,0 +1,68 @@
+{
+  "message": "Products fetched successfully",
+  "data": [
+    {
+      "_id": "68b1966fd1da33ac1e1ea478",
+      "title": "Gowala Parmasan",
+      "price": 89,
+      "discount": 2,
+      "image": "https://gowala-t3pes.ondigitalocean.app//products/parmasan.jpg",
+      "created": "2025-08-29T12:00:47.092Z",
+      "__v": 0
+    },
+    {
+      "_id": "68b1966fd1da33ac1e1ea47a",
+      "title": "Gowala Gouda",
+      "price": 149,
+      "discount": 10,
+      "image": "https://gowala-t3pes.ondigitalocean.app//products/gouda.jpg",
+      "created": "2025-08-29T12:00:47.150Z",
+      "__v": 0
+    },
+    {
+      "_id": "68b1966fd1da33ac1e1ea47c",
+      "title": "Gowala Smør",
+      "price": 39,
+      "discount": 0,
+      "image": "https://gowala-t3pes.ondigitalocean.app//products/butter.jpg",
+      "created": "2025-08-29T12:00:47.205Z",
+      "__v": 0
+    },
+    {
+      "_id": "68b1966fd1da33ac1e1ea47e",
+      "title": "Gowala Fløde",
+      "price": 29,
+      "discount": 0,
+      "image": "https://gowala-t3pes.ondigitalocean.app//products/cream.jpg",
+      "created": "2025-08-29T12:00:47.264Z",
+      "__v": 0
+    },
+    {
+      "_id": "68b1966fd1da33ac1e1ea480",
+      "title": "Gowala Is",
+      "price": 89,
+      "discount": 10,
+      "image": "https://gowala-t3pes.ondigitalocean.app//products/icecream.jpg",
+      "created": "2025-08-29T12:00:47.318Z",
+      "__v": 0
+    },
+    {
+      "_id": "68b1966fd1da33ac1e1ea482",
+      "title": "Gowala Bøf",
+      "price": 299,
+      "discount": 25,
+      "image": "https://gowala-t3pes.ondigitalocean.app//products/beaf.jpg",
+      "created": "2025-08-29T12:00:47.374Z",
+      "__v": 0
+    },
+    {
+      "_id": "68b1966fd1da33ac1e1ea484",
+      "title": "Gowala Mælk",
+      "price": 29,
+      "discount": 0,
+      "image": "https://gowala-t3pes.ondigitalocean.app//products/milk.jpg",
+      "created": "2025-08-29T12:00:47.428Z",
+      "__v": 0
+    }
+  ]
+}

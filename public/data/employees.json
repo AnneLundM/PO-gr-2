@@ -1,0 +1,54 @@
+{
+  "status": "ok",
+  "message": "Employees fetched successfully",
+  "data": [
+    {
+      "_id": "68b1966fd1da33ac1e1ea486",
+      "name": "Monica",
+      "image": "https://gowala-t3pes.ondigitalocean.app//employees/monica.jpg",
+      "text": "Monica er en dedikeret medarbejder på Gowala Farms, som med stor omhu sørger for dyrenes trivsel og kvaliteten af vores produkter.",
+      "created": "2025-08-29T12:00:47.484Z",
+      "__v": 0
+    },
+    {
+      "_id": "68b1966fd1da33ac1e1ea488",
+      "name": "Anders",
+      "image": "https://gowala-t3pes.ondigitalocean.app//employees/anders.jpg",
+      "text": "Anders har et særligt øje for dyrevelfærd og passer dagligt på køerne med stor omsorg. Han sørger for, at dyrene er sunde, glade og får den bedste pleje, så de kan levere kvalitetsmælk og kød.",
+      "created": "2025-08-29T12:00:47.541Z",
+      "__v": 0
+    },
+    {
+      "_id": "68b1966fd1da33ac1e1ea48a",
+      "name": "Søren",
+      "image": "https://gowala-t3pes.ondigitalocean.app//employees/soren.jpg",
+      "text": "Søren har mange års erfaring med landbrug og står for den daglige drift på Gowala Farms. Han sikrer, at køerne trives, markerne passes, og at produktionen altid lever op til de højeste standarder.",
+      "created": "2025-08-29T12:00:47.596Z",
+      "__v": 0
+    },
+    {
+      "_id": "68b1966fd1da33ac1e1ea48c",
+      "name": "Knud",
+      "image": "https://gowala-t3pes.ondigitalocean.app//employees/knud.jpg",
+      "text": "Knud har en stor passion for mejeriproduktion og sørger for, at mælken forarbejdes skånsomt med de nyeste teknologier. Hans ekspertise sikrer, at alle produkter bevarer deres friske smag og høje kvalitet.",
+      "created": "2025-08-29T12:00:47.650Z",
+      "__v": 0
+    },
+    {
+      "_id": "68b1966fd1da33ac1e1ea48e",
+      "name": "Kalle",
+      "image": "https://gowala-t3pes.ondigitalocean.app//employees/kalle.jpg",
+      "text": "Kalle er en af de mest erfarne medarbejdere på Gowala Farms, og hans passion for landbrug skinner igennem i alt, hvad han gør.",
+      "created": "2025-08-29T12:00:47.705Z",
+      "__v": 0
+    },
+    {
+      "_id": "68b1966fd1da33ac1e1ea490",
+      "name": "Malene",
+      "image": "https://gowala-t3pes.ondigitalocean.app//employees/malene.jpg",
+      "text": "Malene er en dedikeret medarbejder på Gowala Farms, kendt for sit skarpe øje for kvalitet og sit gode humør. Hun brænder for det lokale landbrug og lægger stor stolthed i at sikre, at både dyr og produkter bliver behandlet med omhu og respekt.",
+      "created": "2025-08-29T12:00:47.760Z",
+      "__v": 0
+    }
+  ]
+}

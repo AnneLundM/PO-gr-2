@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "message": "Messages fetched successfully",
+  "data": [
+    {
+      "_id": "68b1966fd1da33ac1e1ea492",
+      "name": "Gowala Name",
+      "email": "gowala@gmail.com",
+      "description": "Message 1 description",
+      "status": false,
+      "created": "2025-08-29T12:00:47.817Z",
+      "__v": 0
+    },
+    {
+      "_id": "68b1966fd1da33ac1e1ea494",
+      "name": "Name 2",
+      "email": "gawala2@mail.dk",
+      "description": "Message 2 description",
+      "status": false,
+      "created": "2025-08-29T12:00:47.874Z",
+      "__v": 0
+    }
+  ]
+}

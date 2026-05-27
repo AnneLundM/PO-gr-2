@@ -1,0 +1,59 @@
+{
+  "message": "Orders fetched successfully",
+  "data": [
+    {
+      "_id": "68b19670d1da33ac1e1ea4a1",
+      "email": "customer1@mail.com",
+      "items": [
+        {
+          "product": "68b1966fd1da33ac1e1ea478",
+          "quantity": 1,
+          "_id": "68b19670d1da33ac1e1ea4a2"
+        },
+        {
+          "product": "68b1966fd1da33ac1e1ea47a",
+          "quantity": 1,
+          "_id": "68b19670d1da33ac1e1ea4a3"
+        }
+      ],
+      "created": "2025-08-29T12:00:48.269Z",
+      "__v": 0
+    },
+    {
+      "_id": "68b19670d1da33ac1e1ea4a5",
+      "email": "customer2@mail.com",
+      "items": [
+        {
+          "product": "68b1966fd1da33ac1e1ea47c",
+          "quantity": 1,
+          "_id": "68b19670d1da33ac1e1ea4a6"
+        }
+      ],
+      "created": "2025-08-29T12:00:48.327Z",
+      "__v": 0
+    },
+    {
+      "_id": "68b19670d1da33ac1e1ea4a8",
+      "email": "gowalasubscriber@mail.com",
+      "items": [
+        {
+          "product": "68b1966fd1da33ac1e1ea47e",
+          "quantity": 1,
+          "_id": "68b19670d1da33ac1e1ea4a9"
+        },
+        {
+          "product": "68b1966fd1da33ac1e1ea480",
+          "quantity": 1,
+          "_id": "68b19670d1da33ac1e1ea4aa"
+        },
+        {
+          "product": "68b1966fd1da33ac1e1ea482",
+          "quantity": 1,
+          "_id": "68b19670d1da33ac1e1ea4ab"
+        }
+      ],
+      "created": "2025-08-29T12:00:48.384Z",
+      "__v": 0
+    }
+  ]
+}
