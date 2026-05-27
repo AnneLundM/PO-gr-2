@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "message": "Users fetched successfully",
+  "data": [
+    {
+      "_id": "68b1966ed1da33ac1e1ea472",
+      "name": "admin",
+      "email": "admin@mediacollege.dk",
+      "picture": "https://gowala-t3pes.ondigitalocean.app//users/no-user.jpg",
+      "hashedPassword": "$2a$10$UGAZwFBKhm1ThGE.oqV1U.5RIgoE1GBOM/l/w0Gja/G4ax8Z2/Ev6",
+      "role": "admin",
+      "created": "2025-08-29T12:00:45.757Z"
+    },
+    {
+      "_id": "68b1966fd1da33ac1e1ea476",
+      "name": "guest",
+      "email": "guest@mediacollege.dk",
+      "picture": "https://gowala-t3pes.ondigitalocean.app//users/no-user.jpg",
+      "hashedPassword": "$2a$10$Sg9rJCwdQMo2Oyqg/QzFue3NzVKIsw5BrqOekikxXdpCjcDqIUCVC",
+      "role": "guest",
+      "created": "2025-08-29T12:00:45.757Z"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "message": "Articles fetched successfully",
+  "data": [
+    {
+      "_id": "68b1966fd1da33ac1e1ea498",
+      "title": "Valg af de bedste køer",
+      "description": "Når vi vælger de bedste køer til mælkeproduktion og kød, er kvalitet og sundhed afgørende. Køer med høj mælkeydelse og god genetik sikrer en rig og cremet mælk, perfekt til smør, ost og yoghurt. Samtidig er sunde, velplejede køer nøglen til mørt og velsmagende kød. Foder, opvækst og dyrevelfærd spiller en stor rolle – naturlig fodring og frie græsningsforhold giver bedre produkter. Hos Gowala Farms prioriterer vi bæredygtighed og kvalitet, så du får de bedste mejeriprodukter og det mest velsmagende kød, direkte fra gården til dit bord.",
+      "list": [
+        "Sundhed og genetik",
+        "Foder og opvækst",
+        "Dyrevelfærd",
+        "Kvalitet fra gård til bord"
+      ],
+      "image": "https://gowala-t3pes.ondigitalocean.app//articles/cows.jpg",
+      "created": "2025-08-29T12:00:47.987Z",
+      "__v": 0
+    },
+    {
+      "_id": "68b19670d1da33ac1e1ea49a",
+      "title": "Stærk genetik",
+      "description": "Dyrenes sundhed er afgørende for både mælkeproduktion og kødets kvalitet. Hos Gowala Farms sørger vi for, at vores køer får en afbalanceret og næringsrig kost, der styrker deres immunforsvar og sikrer optimal vækst. Regelmæssige sundhedstjek og dyrlægekontroller hjælper med at forebygge sygdomme og sikrer, at dyrene trives. Frie græsningsforhold og stressfri omgivelser er essentielle for at holde køerne sunde og produktive. Vi prioriterer god hygiejne i staldene og anvender naturlige metoder til at fremme dyrenes velbefindende. Ved at tage hånd om vores dyr med omsorg og respekt, sikrer vi de bedste mejeriprodukter og det mest smagfulde kød til vores kunder.",
+      "list": [
+        "Stærk genetik",
+        "Optimal fodring",
+        "Dyrenes sundhed",
+        "Forebyggende pleje"
+      ],
+      "image": "https://gowala-t3pes.ondigitalocean.app//articles/health.jpg",
+      "created": "2025-08-29T12:00:48.043Z",
+      "__v": 0
+    },
+    {
+      "_id": "68b19670d1da33ac1e1ea49c",
+      "title": "Plads til udfoldelse",
+      "description": "Køerne på Gowala Farms nyder frie græsningsforhold, hvor de tilbringer størstedelen af deres tid på åbne marker. Her har de adgang til frisk græs, som er med til at give både mælken og kødet en naturlig og fyldig smag. Bevægelse i det fri styrker deres muskler og generelle sundhed, hvilket resulterer i en mere bæredygtig og kvalitetsrig produktion. Sollys og frisk luft spiller en vigtig rolle i dyrenes trivsel og reducerer stress, hvilket gavner både deres velbefindende og ydeevne. Vi tror på, at glade køer giver de bedste produkter, og derfor sikrer vi, at de lever under optimale forhold, hvor de kan græsse frit og naturligt.",
+      "list": [
+        "Frisk luft",
+        "Adgang til grønne arealer",
+        "Glade køer smager bedst"
+      ],
+      "image": "https://gowala-t3pes.ondigitalocean.app//articles/field.jpg",
+      "created": "2025-08-29T12:00:48.098Z",
+      "__v": 0
+    },
+    {
+      "_id": "68b19670d1da33ac1e1ea49e",
+      "title": "Om Gowala Farms",
+      "description": "Hos Gowala Farms brænder vi for at levere friske, naturlige og velsmagende mejeriprodukter og kød af højeste kvalitet. Vores køer græsser frit på åbne marker, hvor de lever under optimale forhold for at sikre både deres trivsel og den bedste produktion. Vi kombinerer traditionelle landbrugsmetoder med moderne bæredygtige løsninger for at skabe produkter, der er gode for både mennesker og miljø. Gennem ansvarlig dyrevelfærd, nøje udvalgt foder og skånsom produktion sikrer vi, at vores mælk og kød bevarer den autentiske smag fra gården. Hos os er kvalitet, sundhed og respekt for dyrene kernen i alt, hvad vi gør.",
+      "list": [
+        "Høj kvalitet og naturlige produkter",
+        "Frie græsningsforhold",
+        "Bæredygtighed og dyrevelfærd",
+        "Ægte smag fra gården"
+      ],
+      "image": "https://gowala-t3pes.ondigitalocean.app//articles/about.jpg",
+      "created": "2025-08-29T12:00:48.154Z",
+      "__v": 0
+    }
+  ]
+}
