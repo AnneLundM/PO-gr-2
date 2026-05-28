@@ -1,139 +1,271 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="da">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gowala Farms</title>
-    <link rel="icon" type="image/svg+xml" href="./public/assets/backgrounds/logo.png" />
-    <link rel="stylesheet" href="./css/styles.css">
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="./public/assets/backgrounds/logo.png"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <script type="module" src="./js/index.js"></script>
-</head>
-<body>
-     <header class="header">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <!-- LOGO -->
+        <a href="./index.html" class="logo">
+          <img src="./public/assets/backgrounds/logo.png" alt="Gowala Farms" />
+        </a>
 
-    <div class="container">
+        <!-- DESKTOP NAVIGATION -->
+        <nav class="nav">
+          <a href="./shop.html">Shop</a>
+          <a href="./services.html">Services</a>
+          <a href="./om.html">Om</a>
+          <a href="./kontakt.html">Kontakt</a>
+          <a href="./checkout.html">Checkout</a>
+        </nav>
 
-      <!-- LOGO -->
-      <a href="./index.html" class="logo">
-        <img src="./public/assets/backgrounds/logo.png" alt="Gowala Farms">
-      </a>
-
-      <!-- DESKTOP NAVIGATION -->
-      <nav class="nav">
-        <a href="#">Shop</a>
-        <a href="#">Services</a>
-        <a href="#">Om</a>
-        <a href="#">Kontakt</a>
-        <a href="#">Checkout</a>
-
-        
-      </nav>
-
-      <!-- MOBILE ICONS -->
-      <div class="mobile-icons">
-
-        <!-- BURGER -->
-        <button class="burger" id="burger">
-          <img
-            src="./public/assets/backgrounds/menu-mobile.svg"
-            alt="Menu"
-            id="burgerIcon"
-          >
-        </button>
-
-        
-
+        <!-- MOBILE ICONS -->
+        <div class="mobile-icons">
+          <!-- BURGER -->
+          <button class="burger" id="burger">
+            <img
+              src="./public/assets/backgrounds/menu-mobile.svg"
+              alt="Menu"
+              id="burgerIcon"
+            />
+          </button>
+        </div>
       </div>
 
-    </div>
+      <!-- MOBILE MENU -->
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="./shop.html">Shop</a>
+        <a href="./services.html">Services</a>
+        <a href="./om.html">Om</a>
+        <a href="./kontakt.html">Kontakt</a>
+        <a href="./checkout.html">Checkout</a>
+      </div>
+    </header>
+    <section class="hero-container">
+      <!-- SLIDES -->
 
-    <!-- MOBILE MENU -->
-    <div class="mobile-menu" id="mobileMenu">
-
-      <a href="#">Shop</a>
-      <a href="#">Services</a>
-      <a href="#">Om</a>
-      <a href="#">Kontakt</a>
-      <a href="#">Checkout</a>
-
-    </div>
-
-  </header>
-  <section class="hero-container">
-
-    <!-- SLIDES -->
-
-  <img
-    class="image-in-slider active"
-    src="./public/assets/headerslider/01.jpg"
-    alt="Slide 1"
-  >
-
-  <img
-    class="image-in-slider"
-    src="./public/assets/headerslider/02.jpg"
-    alt="Slide 2"
-  >
-
-  <img
-    class="image-in-slider"
-    src="./public/assets/headerslider/03.jpg"
-    alt="Slide 3"
-  >
-
-  <img
-    class="image-in-slider"
-    src="./public/assets/headerslider/04.jpg"
-    alt="Slide 4"
-  >
-
-  <!-- HERO CONTENT -->
-
-  <div class="hero-content">
-
-    <h1 class="hero-title">
-      Gowala Farms
-    </h1>
-
-    <p class="hero-subtitle">
-      The Complete Milk
-    </p>
-
-    <button class="hero-btn">
-      Læs mere
-    </button>
-
-  </div>
-
-  <!-- SLIDER BUTTONS -->
-
-  
-
-    <button class="slider-arrow left" id="prevBtn">
       <img
-        src="./public/assets/headerslider/arrow-left.png"
-        alt="Previous"
-      >
-    </button>
+        class="image-in-slider active"
+        src="./public/assets/headerslider/01.jpg"
+        alt="Slide 1"
+      />
 
-    <button class="slider-arrow right" id="nextBtn">
       <img
-        src="./public/assets/headerslider/arrow-right.png"
-        alt="Next"
-      >
-    </button>
+        class="image-in-slider"
+        src="./public/assets/headerslider/02.jpg"
+        alt="Slide 2"
+      />
 
-  
+      <img
+        class="image-in-slider"
+        src="./public/assets/headerslider/03.jpg"
+        alt="Slide 3"
+      />
 
-</section>
+      <img
+        class="image-in-slider"
+        src="./public/assets/headerslider/04.jpg"
+        alt="Slide 4"
+      />
 
-    
-    <section class="service-section"></section>
-    <section class="products-section"></section>
+      <!-- HERO CONTENT -->
+
+      <div class="hero-content">
+        <h1 class="hero-title">Gowala Farms</h1>
+
+        <p class="hero-subtitle">The Complete Milk</p>
+
+        <button class="hero-btn">Læs mere</button>
+      </div>
+
+      <!-- SLIDER BUTTONS -->
+
+      <button class="slider-arrow left" id="prevBtn">
+        <img src="./public/assets/headerslider/arrow-left.png" alt="Previous" />
+      </button>
+
+      <button class="slider-arrow right" id="nextBtn">
+        <img src="./public/assets/headerslider/arrow-right.png" alt="Next" />
+      </button>
+    </section>
+
+    <section class="service-section">
+      <div class="service-container">
+        <!-- TOP -->
+
+        <div class="service-top">
+          <h2 class="service-title">Den førende mælkeproducent</h2>
+
+          <p class="service-subtitle">Sund og nærende mælk siden 1975</p>
+        </div>
+
+        <!-- CARDS -->
+
+        <div class="service-grid">
+          <!-- CARD 1 -->
+
+          <div class="service-card">
+            <img src="./public/assets/cards/01.png" alt="Farmers teknologi" />
+
+            <h3>Farmers teknologi</h3>
+
+            <p>
+              Vores avancerede teknologi kombinerer effektivitet med høj
+              hygiejnestandard, hvilket garanterer produkter af den bedste
+              kvalitet.
+            </p>
+          </div>
+
+          <!-- CARD 2 -->
+
+          <div class="service-card">
+            <img src="./public/assets/cards/02.png" alt="Farmers landmand" />
+
+            <h3>Farmers landmand</h3>
+
+            <p>
+              Landmændene hos Gowala Farms er dedikeret til dyrevelfærd og
+              bæredygtigt landbrug, hvor vores køer lever et sundere og friskere
+              liv.
+            </p>
+          </div>
+
+          <!-- CARD 3 -->
+
+          <div class="service-card center-card">
+            <img
+              src="./public/assets/cards/03.png"
+              alt="Fra mejeriet til forbrugeren"
+            />
+
+            <h3>Fra mejeriet til forbrugeren</h3>
+
+            <p>
+              Transporten fra mejeriet til butikker foregår hurtigt og skånsomt
+              for at bevare produkternes friskhed og kvalitet.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="products-section"> 
+      <div class="products-container">
+        <!-- TOP -->
+
+        <div class="products-top">
+          <h2 class="products-title">Vores produkter</h2>
+
+          <p class="products-subtitle">Vi har udvalgt de bedste produkter</p>
+
+          <p class="products-text">
+            Her finder du et udvalg af friske mejeriprodukter og kvalitetskød
+            fra Gowala Farms — direkte fra gården til dit bord.
+          </p>
+        </div>
+
+        <!-- PRODUCTS -->
+
+        <div class="products-grid">
+          <!-- LEFT SIDE -->
+
+          <div class="products-small-grid">
+            <!-- CARD -->
+
+            <div class="product-card small">
+              <span class="sale-badge"> 60% </span>
+
+              <img src="./public/assets/products/parmasan.jpg" alt=""  />
+
+              <h3>Gowala Parmesan</h3>
+
+              <span class="price"> 89,- </span>
+
+              <button>Tilføj i kurv</button>
+            </div>
+
+            <!-- CARD -->
+
+            <div class="product-card small">
+              <span class="sale-badge"> 60% </span>
+
+              <img src="./public/assets/products/gouda.jpg" alt="" />
+
+              <h3>Gowala Gouda</h3>
+
+              <span class="price"> 149,- </span>
+
+              <button>Tilføj i kurv</button>
+            </div>
+
+            <!-- CARD -->
+
+            <div class="product-card small">
+              <span class="sale-badge"> 60% </span>
+
+              <img src="./public/assets/products/butter.jpg" alt=""  />
+
+              <h3>Gowala Smør</h3>
+
+              <span class="price"> 39,- </span>
+
+              <button>Tilføj i kurv</button>
+            </div>
+
+            <!-- CARD -->
+
+            <div class="product-card small">
+              <span class="sale-badge"> 60% </span>
+
+              <img src="./public/assets/products/cream.jpg" alt=""  />
+
+              <h3>Gowala Fløde</h3>
+
+              <span class="price"> 49,- </span>
+
+              <button>Tilføj i kurv</button>
+            </div>
+          </div>
+
+          <!-- BIG PRODUCT -->
+
+          <div class="product-card featured">
+            <span class="sale-badge"> 60% </span>
+
+            <img src="./public/assets/products/parmasan.jpg" alt=""  id="featuredImage" />
+
+            <h3 id="featuredTitle">Gowala Parmesan</h3>
+
+            <span class="price featured-price" id="featuredPrice"> 89,- </span>
+            <!-- DOTS -->
+            <div class="slider-dots">
+              <span class="dot active"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- BUTTON -->
+
+        <div class="products-button-wrap">
+          <button class="all-products-btn">Se alle produkter</button>
+        </div>
+      </div>
+    </section>
     <section class="team-section"></section>
     <section class="subscription-section"></section>
     <section class="sponsors-section"></section>
 
     <footer></footer>
-</body>
+  </body>
 </html>
