@@ -442,6 +442,10 @@ margin-top: 80px;
 
   cursor: pointer;
 }
+a{
+  color: white;
+  text-decoration: none;
+}
 
 /* FEATURED */
 
