@@ -1,5 +1,6 @@
-
-/* HEADER */
+/* =========================
+   HEADER
+========================= */
 
 .header {
   width: 100%;
@@ -11,7 +12,9 @@
   z-index: 1000;
 }
 
-/* CONTAINER */
+/* =========================
+   CONTAINER
+========================= */
 
 .container {
   max-width: 1200px;
@@ -26,14 +29,18 @@
   padding: 0 20px;
 }
 
-/* LOGO */
+/* =========================
+   LOGO
+========================= */
 
 .logo img {
   width: 120px;
   display: block;
 }
 
-/* DESKTOP NAVIGATION */
+/* =========================
+   DESKTOP NAVIGATION
+========================= */
 
 .nav {
   display: flex;
@@ -56,46 +63,72 @@
   color: #6b9d1f;
 }
 
-
-
-
-
-/* MOBILE */
+/* =========================
+   MOBILE ICONS
+========================= */
 
 .mobile-icons {
   display: none;
   align-items: center;
-  gap: 20px;
 }
 
-/* BURGER */
+/* =========================
+   BURGER
+========================= */
 
 .burger {
   border: none;
   background: none;
 
   cursor: pointer;
+
+  position: relative;
+  z-index: 1001;
 }
 
 .burger img {
-  width: 40px;
+  width: 42px;
   display: block;
 }
 
-/* MOBILE MENU */
+/* =========================
+   MOBILE MENU
+========================= */
 
 .mobile-menu {
-  display: none;
+  position: fixed;
 
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100vh;
+
+  background: rgba(255,255,255,0.97);
+
+  backdrop-filter: blur(10px);
+
+  z-index: 999;
+
+  display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 
-  gap: 30px;
+  gap: 40px;
 
-  background: white;
+  transform: translateY(-100%);
 
-  padding: 40px 30px;
+  transition: 0.4s ease;
 }
+
+/* ACTIVE MENU */
+
+.mobile-menu.active {
+  transform: translateY(0);
+}
+
+/* MOBILE LINKS */
 
 .mobile-menu a {
   text-decoration: none;
@@ -104,31 +137,185 @@
 
   font-size: 42px;
   font-weight: bold;
+
+  transition: 0.3s;
 }
 
-/* ACTIVE MOBILE MENU */
+.mobile-menu a:hover {
+  color: #6b9d1f;
+}
 
-.mobile-menu.active {
+/* =========================
+   HERO
+========================= */
+
+.hero-container {
+  position: relative;
+
+  width: 100%;
+  height: 650px;
+
+  overflow: hidden;
+}
+
+/* =========================
+   SLIDES
+========================= */
+
+.image-in-slider {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  opacity: 0;
+
+  transition: opacity 1s ease-in-out;
+}
+
+.image-in-slider.active {
+  opacity: 1;
+}
+
+/* =========================
+   HERO CONTENT
+========================= */
+
+.hero-content {
+  position: relative;
+  z-index: 5;
+
+  height: 100%;
+
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
 }
 
-/* RESPONSIVE */
+/* TITLE */
+
+.hero-title {
+  font-size: 72px;
+  color: #6b9d1f;
+
+  margin-bottom: 10px;
+
+  font-weight: bold;
+}
+
+/* SUBTITLE */
+
+.hero-subtitle {
+  font-size: 36px;
+  color: #6b9d1f;
+
+  margin-bottom: 50px;
+
+  font-weight: 600;
+}
+
+/* BUTTON */
+
+.hero-btn {
+  padding: 18px 60px;
+
+  border: none;
+  border-radius: 50px;
+
+  background: #6b9d1f;
+  color: white;
+
+  font-size: 22px;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.hero-btn:hover {
+  background: #5a8618;
+}
+
+/* =========================
+   SLIDER ARROWS
+========================= */
+
+.slider-arrow {
+  position: absolute;
+
+  top: 50%;
+
+  transform: translateY(-50%);
+
+  width: 80px;
+  height: 80px;
+
+  border: none;
+  background: transparent;
+
+  cursor: pointer;
+
+  z-index: 100;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* LEFT */
+
+.slider-arrow.left {
+  left: 20px;
+}
+
+/* RIGHT */
+
+.slider-arrow.right {
+  right: 20px;
+}
+
+/* ARROW ICON */
+
+.slider-arrow img {
+  width: 55px;
+  height: 55px;
+
+  object-fit: contain;
+
+  display: block;
+
+  transition: 0.3s;
+}
+
+.slider-arrow:hover img {
+  transform: scale(1.1);
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
 
 @media (max-width: 768px) {
 
-  /* HIDE DESKTOP NAV */
+  /* DESKTOP NAV */
 
   .nav {
     display: none;
   }
 
-  /* SHOW MOBILE */
+  /* MOBILE ICONS */
 
   .mobile-icons {
     display: flex;
   }
 
-  /* HEADER HEIGHT */
+  /* HEADER */
 
   .container {
     height: 90px;
@@ -140,9 +327,8 @@
     width: 100px;
   }
 
-  /* MOBILE LINKS */
+  /* MOBILE MENU LINKS */
 
   .mobile-menu a {
     font-size: 34px;
-  }
-}
+  }}
