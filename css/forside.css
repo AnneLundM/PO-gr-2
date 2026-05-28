@@ -1,0 +1,183 @@
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+
+body {
+  font-family: Georgia, serif;
+}
+
+
+/* HERO */
+
+.hero-container {
+  position: relative;
+
+  width: 100%;
+  height: 650px;
+
+  overflow: hidden;
+}
+
+/* SLIDES */
+
+.image-in-slider {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  opacity: 0;
+
+  transition: opacity 1s ease-in-out;
+}
+
+.image-in-slider.active {
+  opacity: 1;
+}
+
+/* HERO CONTENT */
+
+.hero-content {
+  position: relative;
+  z-index: 5;
+
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+}
+
+/* TITLE */
+
+.hero-title {
+  font-size: 72px;
+  color: #6b9d1f;
+
+  margin-bottom: 10px;
+
+  font-weight: bold;
+}
+
+/* SUBTITLE */
+
+.hero-subtitle {
+  font-size: 36px;
+  color: #6b9d1f;
+
+  margin-bottom: 50px;
+
+  font-weight: 600;
+}
+
+/* BUTTON */
+
+.hero-btn {
+  padding: 18px 60px;
+margin-top: 80px;
+  border: none;
+  border-radius: 50px;
+
+  background: #6b9d1f;
+  color: white;
+
+  font-size: 22px;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.hero-btn:hover {
+  background: #5a8618;
+}
+
+/* ARROWS */
+
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+
+  transform: translateY(-50%);
+
+  width: 80px;
+  height: 80px;
+
+  border: none;
+  background: transparent;
+
+  cursor: pointer;
+
+  z-index: 10;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* LEFT */
+
+.slider-arrow.left {
+  left: 20px;
+}
+
+/* RIGHT */
+
+.slider-arrow.right {
+  right: 20px;
+}
+
+/* ICON */
+
+.slider-arrow img {
+  width: 55px;
+
+  transition: 0.3s;
+}
+
+.slider-arrow:hover img {
+  transform: scale(1.1);
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+  .hero-container {
+    height: 450px;
+  }
+
+  .hero-title {
+    font-size: 42px;
+  }
+
+  .hero-subtitle {
+    font-size: 24px;
+  }
+
+  .hero-btn {
+    padding: 14px 40px;
+    font-size: 18px;
+  }
+
+  .slider-arrow {
+    width: 55px;
+    height: 55px;
+  }
+
+  .slider-arrow img {
+    width: 35px;
+  }
+}
