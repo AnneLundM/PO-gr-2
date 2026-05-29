@@ -12,7 +12,6 @@ body {
   font-family: Georgia, serif;
 }
 
-
 /* HERO */
 
 .hero-container {
@@ -66,7 +65,9 @@ body {
   color: #6b9d1f;
 
   margin-bottom: 10px;
-  font-family:Frank Ruhl Libre, serif;
+  font-family:
+    Frank Ruhl Libre,
+    serif;
 
   font-weight: bold;
 }
@@ -86,7 +87,7 @@ body {
 
 .hero-btn {
   padding: 18px 60px;
-margin-top: 80px;
+  margin-top: 80px;
   border: none;
   border-radius: 50px;
 
@@ -155,7 +156,6 @@ margin-top: 80px;
 /* RESPONSIVE */
 
 @media (max-width: 768px) {
-
   .hero-container {
     height: 450px;
   }
@@ -212,7 +212,9 @@ margin-top: 80px;
 
 .service-title {
   font-size: 42px;
-  font-family: Frank Ruhl Libre, serif;
+  font-family:
+    Frank Ruhl Libre,
+    serif;
 
   margin-bottom: 10px;
 
@@ -223,7 +225,9 @@ margin-top: 80px;
 
 .service-subtitle {
   color: #444;
-  font-family: Frank Ruhl Libre, serif;
+  font-family:
+    Frank Ruhl Libre,
+    serif;
   font-size: 32px;
 }
 
@@ -289,7 +293,6 @@ margin-top: 80px;
 ========================= */
 
 @media (max-width: 768px) {
-
   .service-grid {
     grid-template-columns: 1fr;
   }
@@ -335,7 +338,9 @@ margin-top: 80px;
 
 .products-title {
   font-size: 48px;
-  font-family: Frank Ruhl Libre, serif;
+  font-family:
+    Frank Ruhl Libre,
+    serif;
 
   margin-bottom: 15px;
 }
@@ -344,7 +349,9 @@ margin-top: 80px;
 
 .products-subtitle {
   font-size: 36px;
-  font-family: Frank Ruhl Libre, serif;
+  font-family:
+    Frank Ruhl Libre,
+    serif;
 
   margin-bottom: 10px;
 }
@@ -384,7 +391,7 @@ margin-top: 80px;
 /* CARD */
 
 .product-card {
-  background: #EFF4F8;
+  background: #eff4f8;
 
   padding: 20px;
 
@@ -419,7 +426,9 @@ margin-top: 80px;
 
 .price {
   display: block;
-  font-family: Frank Ruhl Libre, serif;
+  font-family:
+    Frank Ruhl Libre,
+    serif;
   color: #6b9d1f;
 
   font-size: 34px;
@@ -442,7 +451,7 @@ margin-top: 80px;
 
   cursor: pointer;
 }
-a{
+a {
   color: white;
   text-decoration: none;
 }
@@ -523,7 +532,18 @@ a{
   padding: 5px 10px;
 
   border-radius: 20px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
   font-size: 14px;
 }
 
@@ -557,14 +577,260 @@ a{
 ========================= */
 
 @media (max-width: 992px) {
-
   .products-grid {
     grid-template-columns: 1fr;
   }
 }
 
-@media (max-width: 768px) {
+.team-section {
+  position: relative;
+  background: #dee4ea;
+  padding: 72px 20px 56px;
+  overflow: hidden;
+}
 
+.team-section::before,
+.team-section::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.team-section::before {
+  top: 0;
+  height: 110px;
+  background: url("../public/assets/backgrounds/blob_01.jpg") top center/cover
+    no-repeat;
+  opacity: 0.92;
+}
+
+.team-section::after {
+  bottom: 0;
+  height: 80px;
+  background: url("../public/assets/backgrounds/blob_02.jpg") bottom
+    center/cover no-repeat;
+  opacity: 0.85;
+}
+
+.team-container {
+  position: relative;
+  z-index: 1;
+  max-width: 1220px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.team-title {
+  font-family:
+    Frank Ruhl Libre,
+    serif;
+  font-size: 62px;
+  line-height: 1.05;
+  margin: 0;
+  color: #111111;
+}
+
+.team-subtitle {
+  margin-top: 8px;
+  font-size: 42px;
+  color: #111111;
+  font-family:
+    Frank Ruhl Libre,
+    serif;
+}
+
+.team-description {
+  margin: 16px auto 34px;
+  max-width: 1040px;
+  font-size: 35px;
+  line-height: 1.5;
+  color: #1b1b1b;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 38px 42px;
+}
+
+.team-member {
+  position: relative;
+  border: 2px solid #e7ebef;
+  background: #eef2f6;
+  padding: 5px;
+  min-height: 420px;
+}
+
+.team-member img {
+  width: 100%;
+  height: 100%;
+  min-height: 408px;
+  object-fit: cover;
+  display: block;
+}
+
+.team-member__nameplate {
+  position: absolute;
+  left: 16px;
+  right: 16px;
+  bottom: 14px;
+  background: rgba(255, 255, 255, 0.82);
+  padding: 8px 10px;
+  font-size: 33px;
+  font-weight: 700;
+  color: #111111;
+  font-family:
+    Frank Ruhl Libre,
+    serif;
+}
+
+.team-member__bio-box {
+  position: absolute;
+  left: 22px;
+  right: 22px;
+  bottom: 52px;
+  background: rgba(255, 255, 255, 0.86);
+  padding: 10px 12px;
+  font-size: 15px;
+  line-height: 1.4;
+  color: #222222;
+}
+
+@media (max-width: 1100px) {
+  .team-title {
+    font-size: 48px;
+  }
+
+  .team-subtitle {
+    font-size: 34px;
+  }
+
+  .team-description {
+    font-size: 28px;
+  }
+
+  .team-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 700px) {
+  .team-section {
+    padding: 58px 14px 44px;
+  }
+
+  .team-title {
+    font-size: 38px;
+  }
+
+  .team-subtitle {
+    font-size: 28px;
+  }
+
+  .team-description {
+    font-size: 22px;
+    margin-bottom: 24px;
+  }
+
+  .team-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .team-member {
+    min-height: 360px;
+  }
+
+  .team-member img {
+    min-height: 348px;
+  }
+
+  .team-member__nameplate {
+    font-size: 28px;
+  }
+}
+
+.homepage-newsletter {
+  background: #f2f2f2;
+  padding: 22px 12px 10px;
+}
+
+.homepage-newsletter__panel {
+  max-width: 1320px;
+  margin: 0 auto;
+  border-radius: 12px;
+  padding: 18px 12px 0;
+  background: #e0e6eb url("../public/assets/backgrounds/background.jpg")
+    center/cover no-repeat;
+}
+
+.homepage-newsletter__panel h2 {
+  margin: 0;
+  text-align: center;
+  font-size: 44px;
+}
+
+.homepage-newsletter__lead {
+  margin: 2px 0 0;
+  text-align: center;
+  color: #579a14;
+  font-size: 33px;
+  font-weight: 700;
+}
+
+.homepage-newsletter__sub {
+  margin: 6px auto 0;
+  text-align: center;
+  max-width: 920px;
+  font-size: 19px;
+  line-height: 1.45;
+}
+
+.homepage-newsletter__form {
+  margin-top: 14px;
+}
+
+.homepage-newsletter__form input {
+  width: 100%;
+  border: 2px solid #f3f3f3;
+  background: #ffffff;
+  height: 44px;
+  padding: 0 12px;
+  font-family: inherit;
+  font-size: 17px;
+}
+
+.homepage-newsletter__form button {
+  width: 100%;
+  border: 0;
+  border-radius: 0;
+  background: #6b9d1f;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 9px;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .homepage-newsletter__panel h2 {
+    font-size: 30px;
+  }
+
+  .homepage-newsletter__lead {
+    font-size: 24px;
+  }
+
+  .homepage-newsletter__sub {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
   .products-small-grid {
     grid-template-columns: 1fr;
   }

@@ -30,19 +30,6 @@ const headerTemplate = `
 `;
 
 const footerTemplate = `
-<section class="footer-newsletter" aria-label="Nyhedsbrev">
-  <div class="footer-newsletter__panel">
-    <h2>Nyhedsbrev</h2>
-    <p class="footer-newsletter__lead">Få nyhederne fra gården på din mail.</p>
-    <p class="footer-newsletter__sub">
-      Tilmeld dig vores nyhedsbrev - så kan du altid følge med i, hvad der sker på farmen.
-    </p>
-    <form class="footer-newsletter__form">
-      <input type="email" placeholder="Din email" aria-label="Din email" />
-      <button type="submit">Tilmeld</button>
-    </form>
-  </div>
-</section>
 <section class="sponsors" aria-label="Sponsorer">
   <img src="./public/assets/sponsors/01.png" alt="Organic badge" />
   <img src="./public/assets/sponsors/02.png" alt="Quality products" />
