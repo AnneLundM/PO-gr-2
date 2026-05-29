@@ -39,11 +39,11 @@ function prevSlide() {
   showSlide(currentSlide);
 }
 
-/* EVENTS */
+if (slides.length > 0 && nextBtn && prevBtn) {
+  /* EVENTS */
+  nextBtn.addEventListener("click", nextSlide);
+  prevBtn.addEventListener("click", prevSlide);
 
-nextBtn.addEventListener("click", nextSlide);
-prevBtn.addEventListener("click", prevSlide);
-
-/* AUTO SLIDER */
-
-setInterval(nextSlide, 4000);
+  /* AUTO SLIDER */
+  setInterval(nextSlide, 4000);
+}

@@ -1,51 +1,107 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="da">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gowala Farms</title>
-     <link rel="icon" type="image/svg+xml" href="./public/assets/backgrounds/logo.png" />
-    <link rel="stylesheet" href="./css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gowala Farms - Shop</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="./public/assets/backgrounds/logo.png"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <script type="module" src="./js/index.js"></script>
-</head>
-<body>
-    <header class="header">
-      <div class="container">
-        <!-- LOGO -->
-        <a href="./index.html" class="logo">
-          <img src="./public/assets/backgrounds/logo.png" alt="Gowala Farms" />
-        </a>
+  </head>
+  <body>
+    <div id="header-root"></div>
 
-        <!-- DESKTOP NAVIGATION -->
-        <nav class="nav">
-          <a href="./shop.html">Shop</a>
-          <a href="./services.html">Services</a>
-          <a href="./om.html">Om</a>
-          <a href="./kontakt.html">Kontakt</a>
-          <a href="./checkout.html">Checkout</a>
-        </nav>
-
-        <!-- MOBILE ICONS -->
-        <div class="mobile-icons">
-          <!-- BURGER -->
-          <button class="burger" id="burger">
-            <img
-              src="./public/assets/backgrounds/menu-mobile.svg"
-              alt="Menu"
-              id="burgerIcon"
-            />
-          </button>
+    <main class="shop-page">
+      <section class="shop-hero" aria-label="Shop hero">
+        <div class="shop-hero__content">
+          <h1>Gowala Shopping</h1>
+          <p>Vi er taknemmelige for dit bidrag</p>
         </div>
-      </div>
+      </section>
 
-      <!-- MOBILE MENU -->
-      <div class="mobile-menu" id="mobileMenu">
-        <a href="./shop.html">Shop</a>
-        <a href="./services.html">Services</a>
-        <a href="./om.html">Om</a>
-        <a href="./kontakt.html">Kontakt</a>
-        <a href="./checkout.html">Checkout</a>
-      </div>
-    </header>
-</body>
+      <section class="shop-products" aria-label="Alle produkter">
+        <h2>Alle vores produkter</h2>
+        <p class="shop-products__lead">Alt på ét sted</p>
+        <p class="shop-products__sub">
+          Her på siden finder du alle vores friske mejeriprodukter og
+          kvalitetskød fra Gowala Farms - direkte fra gården til dit bord.
+        </p>
+
+        <div class="shop-toolbar">
+          <button type="button" aria-label="Skift visning">☰</button>
+        </div>
+
+        <div class="shop-grid">
+          <article class="shop-card">
+            <span class="discount-badge">60%</span>
+            <img
+              src="./public/assets/products/parmasan.jpg"
+              alt="Gowala Parmasan"
+            />
+            <h3>Gowala Parmasan</h3>
+            <p class="price">89,-</p>
+            <button class="btn btn--green" type="button">
+              Tilføj til kurv
+            </button>
+          </article>
+
+          <article class="shop-card">
+            <span class="discount-badge">60%</span>
+            <img src="./public/assets/products/gouda.jpg" alt="Gowala Gouda" />
+            <h3>Gowala Gouda</h3>
+            <p class="price">149,-</p>
+            <button class="btn btn--green" type="button">
+              Tilføj til kurv
+            </button>
+          </article>
+
+          <article class="shop-card">
+            <span class="discount-badge">60%</span>
+            <img src="./public/assets/products/butter.jpg" alt="Gowala Smør" />
+            <h3>Gowala Smør</h3>
+            <p class="price">39,-</p>
+            <button class="btn btn--green" type="button">
+              Tilføj til kurv
+            </button>
+          </article>
+
+          <article class="shop-card">
+            <span class="discount-badge">60%</span>
+            <img src="./public/assets/products/cream.jpg" alt="Gowala Fløde" />
+            <h3>Gowala Fløde</h3>
+            <p class="price">29,-</p>
+            <button class="btn btn--green" type="button">
+              Tilføj til kurv
+            </button>
+          </article>
+
+          <article class="shop-card">
+            <span class="discount-badge">60%</span>
+            <img src="./public/assets/products/icecream.jpg" alt="Gowala Is" />
+            <h3>Gowala Is</h3>
+            <p class="price">89,-</p>
+            <button class="btn btn--green" type="button">
+              Tilføj til kurv
+            </button>
+          </article>
+
+          <article class="shop-card">
+            <span class="discount-badge">60%</span>
+            <img src="./public/assets/products/beaf.jpg" alt="Gowala Bøf" />
+            <h3>Gowala Bøf</h3>
+            <p class="price">299,-</p>
+            <button class="btn btn--green" type="button">
+              Tilføj til kurv
+            </button>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <div id="footer-root"></div>
+  </body>
 </html>
