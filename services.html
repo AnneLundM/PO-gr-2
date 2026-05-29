@@ -18,113 +18,39 @@
     <main class="services-page">
       <section class="services-hero" aria-label="Services hero">
         <div class="services-hero__content">
-          <h1>Gowala tilbyder</h1>
-          <p>Hvad vi tilbyder vores forbrugere</p>
+          <h1 class="services-hero__title">Gowala tilbyder</h1>
+          <p class="services-hero__subtitle">
+            Hvad vi tilbyder vores forbrugere
+          </p>
         </div>
       </section>
 
-      <section class="services-content" aria-label="Service indhold">
-        <article class="service-row">
-          <img
-            src="https://gowala-t3pes.ondigitalocean.app//articles/cows.jpg"
-            alt="Valg af de bedste køer"
-            class="service-row__image"
-          />
-          <div class="service-row__text">
-            <h2>Valg af de bedste køer</h2>
-            <p>
-              Når vi vælger de bedste køer til mælkeproduktion og kød, er
-              kvalitet og sundhed afgørende.
-            </p>
-            <p>
-              Køer med høj mælkeydelse og god genetik sikrer en rig og cremet
-              mælk, perfekt til smør, ost og yoghurt. Samtidig er sunde,
-              velplejede køer nøglen til mørt og velsmagende kød.
-            </p>
-            <p>
-              Foder, opvækst og dyrevelfærd spiller en stor rolle - naturlig
-              fodring og frie græsningsforhold giver bedre produkter. Hos Gowala
-              Farms prioriterer vi bæredygtighed og kvalitet, så du får de
-              bedste mejeriprodukter og det mest velsmagende kød, direkte fra
-              gården til dit bord.
-            </p>
-            <ul class="service-checks">
-              <li><span>✓</span>Sundhed og genetik</li>
-              <li><span>✓</span>Foder og opvækst</li>
-              <li><span>✓</span>Dyrevelfærd</li>
-              <li><span>✓</span>Kvalitet fra gård til bord</li>
-            </ul>
-          </div>
-        </article>
-
-        <article class="service-row service-row--reverse">
-          <img
-            src="https://gowala-t3pes.ondigitalocean.app//articles/health.jpg"
-            alt="Stærk genetik"
-            class="service-row__image"
-          />
-          <div class="service-row__text">
-            <h2>Stærk genetik</h2>
-            <p>
-              Dyrenes sundhed er afgørende for både mælkeproduktion og kødets
-              kvalitet. Hos Gowala Farms sørger vi for, at vores køer får en
-              afbalanceret og næringsrig kost, der styrker deres immunforsvar og
-              sikrer optimal vækst.
-            </p>
-            <p>
-              Regelmæssige sundhedstjek og dyrlægekontroller hjælper med at
-              forebygge sygdomme og sikrer, at dyrene trives. Frie
-              græsningsforhold og stressfri omgivelser er essentielle for at
-              holde køerne sunde og produktive.
-            </p>
-            <p>
-              Vi prioriterer god hygiejne i staldene og anvender naturlige
-              metoder til at fremme dyrenes velbefindende. Ved at tage hånd om
-              vores dyr med omsorg og respekt, sikrer vi de bedste
-              mejeriprodukter og det mest smagfulde kød til vores kunder.
-            </p>
-            <ul class="service-checks">
-              <li><span>✓</span>Stærk genetik</li>
-              <li><span>✓</span>Optimal fodring</li>
-              <li><span>✓</span>Dyrenes sundhed</li>
-              <li><span>✓</span>Forebyggende pleje</li>
-            </ul>
-          </div>
-        </article>
-
-        <article class="service-row">
-          <img
-            src="https://gowala-t3pes.ondigitalocean.app//articles/field.jpg"
-            alt="Plads til udfoldelse"
-            class="service-row__image"
-          />
-          <div class="service-row__text">
-            <h2>Plads til udfoldelse</h2>
-            <p>
-              Køerne på Gowala Farms nyder frie græsningsforhold, hvor de
-              tilbringer størstedelen af deres tid på åbne marker.
-            </p>
-            <p>
-              Her har de adgang til frisk græs, som er med til at give både
-              mælken og kødet en naturlig og fyldig smag. Bevægelse i det fri
-              styrker deres muskler og generelle sundhed, hvilket resulterer i
-              en mere bæredygtig og kvalitetsrig produktion.
-            </p>
-            <p>
-              Sollys og frisk luft spiller en vigtig rolle i dyrenes trivsel og
-              reducerer stress, hvilket gavner deres velbefindende og ydeevne.
-              Vi tror på, at glade køer giver de bedste produkter.
-            </p>
-            <ul class="service-checks">
-              <li><span>✓</span>Frisk luft</li>
-              <li><span>✓</span>Adgang til grønne arealer</li>
-              <li><span>✓</span>Glade køer smager bedst</li>
-            </ul>
-          </div>
-        </article>
+      <section
+        class="services-content"
+        id="services-rows"
+        aria-label="Service indhold"
+      >
+        <!-- JS -->
       </section>
     </main>
 
-    <div id="footer-root"></div>
+    <section class="services-newsletter" aria-label="Nyhedsbrev">
+      <div class="services-newsletter__panel">
+        <h2 class="services-newsletter__title">Nyhedsbrev</h2>
+        <p class="services-newsletter__lead">
+          Få nyhederne fra gården på din mail.
+        </p>
+        <p class="services-newsletter__sub">
+          Tilmeld dig vores nyhedsbrev - så kan du altid følge med i, hvad der
+          sker på farmen.
+        </p>
+        <form class="services-newsletter__form">
+          <input type="email" placeholder="Din email" aria-label="Din email" />
+          <button type="submit">Tilmeld</button>
+        </form>
+      </div>
+    </section>
+
+    <div id="footerto-root"></div>
   </body>
 </html>

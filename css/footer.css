@@ -1,4 +1,5 @@
-#footer-root {
+#footer-root,
+#footerto-root {
   display: block;
   width: 100%;
   background: #ffffff;
@@ -21,24 +22,28 @@
   height: auto;
 }
 
-#footer-root .site-footer {
+#footer-root .site-footer,
+#footerto-root .site-footer {
   background: #e5eaef url("../public/assets/backgrounds/footer_bg.jpg") center
     bottom/cover no-repeat;
   min-height: 460px;
   padding: 34px 18px 130px;
 }
 
-#footer-root .site-footer__content {
+#footer-root .site-footer__content,
+#footerto-root .site-footer__content {
   max-width: 1320px;
   margin: 0 auto;
 }
 
-#footer-root .site-footer__logo {
+#footer-root .site-footer__logo,
+#footerto-root .site-footer__logo {
   width: 58px;
   height: auto;
 }
 
-#footer-root .site-footer__description {
+#footer-root .site-footer__description,
+#footerto-root .site-footer__description {
   margin: 10px 0 16px;
   max-width: 410px;
   font-size: 17px;
@@ -46,7 +51,8 @@
   color: #111111;
 }
 
-#footer-root .site-footer__list {
+#footer-root .site-footer__list,
+#footerto-root .site-footer__list {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -58,25 +64,29 @@
   color: #111111;
 }
 
-#footer-root .site-footer__icon {
+#footer-root .site-footer__icon,
+#footerto-root .site-footer__icon {
   color: #579a14;
   margin-right: 8px;
 }
 
-#footer-root .site-footer-credits {
+#footer-root .site-footer-credits,
+#footerto-root .site-footer-credits {
   background: #ffffff;
   text-align: center;
   padding: 18px 12px 14px;
 }
 
-#footer-root .site-footer-credits p {
+#footer-root .site-footer-credits p,
+#footerto-root .site-footer-credits p {
   margin: 0;
   color: #111111;
   font-size: 13px;
   line-height: 1.45;
 }
 
-#footer-root .site-footer-credits span {
+#footer-root .site-footer-credits span,
+#footerto-root .site-footer-credits span {
   color: #579a14;
 }
 
@@ -85,13 +95,16 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  #footer-root .site-footer {
+  #footer-root .site-footer,
+  #footerto-root .site-footer {
     min-height: 360px;
     padding-bottom: 90px;
   }
 
   #footer-root .site-footer__description,
-  #footer-root .site-footer__list {
+  #footer-root .site-footer__list,
+  #footerto-root .site-footer__description,
+  #footerto-root .site-footer__list {
     font-size: 14px;
   }
 }

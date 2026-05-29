@@ -1,6 +1,7 @@
-import "./slider.js";
+import "./fetch/fetch.js";
 import "./mobil-menu.js";
 import "./products-slider.js";
+import "./slider.js";
 
 const headerTemplate = `
 <header class="site-header" aria-label="Hovednavigation">
@@ -29,14 +30,7 @@ const headerTemplate = `
 </header>
 `;
 
-const footerTemplate = `
-<section class="sponsors" aria-label="Sponsorer">
-  <img src="./public/assets/sponsors/01.png" alt="Organic badge" />
-  <img src="./public/assets/sponsors/02.png" alt="Quality products" />
-  <img src="./public/assets/sponsors/03.png" alt="Premium quality" />
-  <img src="./public/assets/sponsors/04.png" alt="Premium quality logo" />
-  <img src="./public/assets/sponsors/05.png" alt="Eco quality" />
-</section>
+const footerBodyTemplate = `
 <footer class="site-footer" aria-label="Kontakt og footer">
   <div class="site-footer__content">
     <img src="./public/assets/backgrounds/logo.png" alt="Gowala Farms logo" class="site-footer__logo" />
@@ -70,6 +64,17 @@ const footerTemplate = `
 </section>
 `;
 
+const footerTemplate = `
+<section class="sponsors" aria-label="Sponsorer">
+  <img src="./public/assets/sponsors/01.png" alt="Organic badge" />
+  <img src="./public/assets/sponsors/02.png" alt="Quality products" />
+  <img src="./public/assets/sponsors/03.png" alt="Premium quality" />
+  <img src="./public/assets/sponsors/04.png" alt="Premium quality logo" />
+  <img src="./public/assets/sponsors/05.png" alt="Eco quality" />
+</section>
+${footerBodyTemplate}
+`;
+
 async function injectPartial(targetId, url, fallbackMarkup) {
   const target = document.getElementById(targetId);
 
@@ -93,4 +98,5 @@ async function injectPartial(targetId, url, fallbackMarkup) {
 await Promise.all([
   injectPartial("header-root", "./header.html", headerTemplate),
   injectPartial("footer-root", "./footer.html", footerTemplate),
+  injectPartial("footerto-root", "./footerto.html", footerBodyTemplate),
 ]);
